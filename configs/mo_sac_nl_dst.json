@@ -1,0 +1,30 @@
+{
+  "num_subproblems": 10,
+  "actor_lr": 0.001,
+  "critic_lr": 0.001,
+  "gamma": 1.0,
+  "tau": 0.005,
+  "alpha": 0.1,
+  "archive_size": 100,
+  "buffer_size": 60000,
+  "actor_net_arch": [
+    64,
+    64
+  ],
+  "critic_net_arch": [
+    64,
+    64
+  ],
+  "batch_size": 256,
+  "learning_starts": 512,
+  "gradient_updates": 1,
+  "policy_freq": 1,
+  "target_net_freq": 1,
+  "clip_grad_norm": true,
+  "actor_clip_norm": 2.0,
+  "critic_clip_norm": 5.0,
+  "num_steps": 64,
+  "max_episode_steps": 50,
+  "eval_iterations": 1,
+  "total_iterations": 100
+}
