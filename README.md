@@ -213,7 +213,7 @@ The runs of GPI-LS, PCN, IPRO, C-MORL and MORL/D are not part of this repository
 ## Acknowledgements
 
 This repository builds on the following codebases:
-- [MORL/D](https://github.com/LucasAlegre/morl-baselines) — MORL/D, GPI-LS and PCN baselines
+- [MORL-Baselines](https://github.com/LucasAlegre/morl-baselines) — MORL/D, GPI-LS and PCN baselines
 - [C-MORL](https://github.com/RuohLiuq/C-MORL) — C-MORL baseline
 - [PG-MORL](https://github.com/mit-gfx/PGMORL) — PPO implementation underlying MO-PPO
 - [IPRO](https://arxiv.org/abs/2402.07182) — IPRO baseline
