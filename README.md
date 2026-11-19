@@ -8,7 +8,7 @@
 
 ## Abstract
 
-**Background:** Decomposition-based multi-objective reinforcement learning trains one policy per preference by scalarizing vector-valued returns. Weighted sums can only target supported Pareto returns on the convex hull of the front, whereas nonlinear scalarizers such as the Tchebycheff function can also target unsupported returns in its concave regions. However, training also produces Pareto-optimal returns that no preference targets, and a checkpoint archive can keep them. It is therefore unclear what nonlinear scalarization adds.
+**Background:** Decomposition-based multi-objective reinforcement learning trains one policy per preference by scalarizing vector-valued returns. Weighted sums can only target supported Pareto returns on the convex hull of the front, whereas nonlinear scalarizers such as the Tchebycheff function can also target unsupported returns in its concave regions. However, these scalarizers require reference points, which may be unknown. Moreover, training produces Pareto-optimal returns that no preference targets, and a checkpoint archive can keep them. It is therefore unclear what nonlinear scalarization adds.
 
 **Objectives:** We examine to what extent checkpoint archiving compensates for the limited targeting of weighted sums and which advantages of nonlinear scalarization then remain. We also examine how the answers depend on training and evaluation budgets and on deterministic or sampled execution.
 
